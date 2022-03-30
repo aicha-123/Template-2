@@ -278,7 +278,7 @@ ul {
 .services-section .services {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  gap: 20px;
 }
 
 .services .serv-box {
@@ -418,7 +418,7 @@ ul {
 }
 
 .portfolio-section .portfolio-list ul {
-  margin-bottom: 10px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -717,7 +717,7 @@ ul {
   font-weight: bold;
   font-size: 13px;
   position: absolute;
-  left: 125px;
+  left: 100px;
 }
 .pricing-box .box-price .price::after {
   content: "/Mo";
@@ -725,7 +725,7 @@ ul {
   font-size: 12px;
   position: absolute;
   top: 17px;
-  right: 110px;
+  right: 90px;
 }
 
 .pricing-box .box-price p {
@@ -785,7 +785,7 @@ ul {
 }
 .subscribe-section .subscribe {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   color: var(--secondColor);
   font-size: 11px;
@@ -795,7 +795,7 @@ ul {
   display: flex;
 }
 .subscribe .email i {
-  margin-left: 8px;
+  margin-left: 15px;
   position: absolute;
   color: initial;
   top: 10px;
@@ -809,11 +809,11 @@ ul {
   padding: 5px;
   font-weight: bold;
   color: var(--secondColor);
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .subscribe .parag-sub {
   font-weight: bold;
-  font-size: 10px;
+  font-size: 12px;
 }
 @media (max-width: 767px) {
   .subscribe-section .subscribe {
